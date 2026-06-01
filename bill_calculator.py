@@ -1,6 +1,6 @@
-price_item1 = float(input("Enter the price of frist item"))
+price_item1 = float(input("Enter the price of first item"))
 price_item2 = float(input("Enter the price of second item"))
-price_item3 = float(input("Enter the price of thrid item"))
+price_item3 = float(input("Enter the price of third item"))
 actual_amount = price_item1 +  price_item2 + price_item3
 
 if actual_amount > 1000:
@@ -26,4 +26,4 @@ else:
     final_amount = actual_amount - discount_amount
     print("Amount before discount" , actual_amount)
     print("Discount given" , discount_amount)
-    print("Amount be to paid", final_amount)
+    print("Amount to be paid", final_amount)

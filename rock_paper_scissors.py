@@ -5,31 +5,31 @@ user_choice = str(input("Select your choice (Rock , Paper , Scissors):"))
 print("Computer chose:", computer_choice)
 
 if computer_choice == "Rock" and user_choice == "Rock" :
-    print("Same choice so  Draw")
+    print("Same choice, so Draw")
 
 elif computer_choice == "Rock" and user_choice == "Paper" :
-    print("Paper over Rock YOU WONN")
+    print("Paper over Rock YOU WON")
 
 elif computer_choice == "Rock" and user_choice == "Scissors" :
-    print("Rock breaks Scissors COMPUTER WONN")
+    print("Rock breaks Scissors COMPUTER WON")
 
 elif computer_choice == "Paper" and user_choice == "Paper" :
-    print("Same choice so  Draw")
+    print("Same choice, so Draw")
 
 elif computer_choice == "Paper" and user_choice == "Scissors" :
-    print("Scissors cuts Paper YOU WONN")
+    print("Scissors cuts Paper YOU WON")
 
 elif computer_choice == "Paper" and user_choice == "Rock" :
-    print("Paper over Rock COMPUTER WONN")
+    print("Paper over Rock COMPUTER WON")
 
 elif computer_choice == "Scissors" and user_choice == "Scissors" :
-    print("Same choice so  Draw")
+    print("Same choice, so Draw")
 
 elif computer_choice == "Scissors" and user_choice == "Rock" :
-    print("Rock breaks Scissors YOU WONN")
+    print("Rock breaks Scissors YOU WON")
 
 elif computer_choice == "Scissors" and user_choice == "Paper" :
-    print("Scissors cuts Paper COMPUTER WONN")
+    print("Scissors cuts Paper COMPUTER WON")
 
 else :
-    print("Please enter a vaild choice")
+    print("Please enter a valid choice")
