@@ -1,5 +1,5 @@
-first_num = int(input('enter first num'))
-second_num = int(input('enter second num'))
+first_num = float(input('enter first num'))
+second_num = float(input('enter second num'))
 math_op = input('select operator (+ , - , * , /)')
  
 if math_op == "+":
