@@ -18,5 +18,5 @@ if bill > 1000:
 else :
     service_charge = 0
 
-print("Service charges:" ,  service_charge)
-print("Total bill:" , bill + service_charge)
+print("Service charges" ,  service_charge)
+print("Total bill" , bill + service_charge)
