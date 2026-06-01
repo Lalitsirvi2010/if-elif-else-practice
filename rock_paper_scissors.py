@@ -1,7 +1,8 @@
 import random
-
+valid_choice = ['Rock' , 'Paper' , 'Scissors']
 computer_choice = random.choice(valid_choice)
 user_choice = str(input("Select your choice (Rock , Paper , Scissors):"))
+print("Computer chose:", computer_choice)
 
 if computer_choice == "Rock" and user_choice == "Rock" :
     print("Same choice so  Draw")
