@@ -12,5 +12,5 @@ elif withdraw % 100 != 0:
     print("Amount must be multiple of 100")
 
 else : 
-    print("Withdrawal successfull")
+    print("Withdrawal successful")
     print("Remaining balance :" , account_balance -  withdraw)

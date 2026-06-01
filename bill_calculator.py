@@ -17,4 +17,4 @@ else:
 
 print("Amount before discount" , actual_amount)
 print("Discount given" , discount_amount)
-print("Amount be to paid", final_amount)
+print("Amount to be paid", final_amount)
