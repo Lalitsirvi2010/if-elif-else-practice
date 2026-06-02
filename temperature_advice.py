@@ -1,3 +1,4 @@
+
 temp = float(input("Enter the temperature outside (in celsius)"))
 
 if temp < 0 :
