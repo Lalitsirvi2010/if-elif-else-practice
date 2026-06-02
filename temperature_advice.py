@@ -14,3 +14,4 @@ elif temp < 35:
 
 else :
     print("Very hot, stay indoors")
+
