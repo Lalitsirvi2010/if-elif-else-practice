@@ -1,5 +1,5 @@
 mood  = str(input("Enter your mood(happy, sad, angry, tired, focused, bored): ")).lower()
-category = str(input('Do want to listen to music or another activity?: ')).lower()
+category = str(input("Do you want music or activity?: ")).lower()
 
 if category == 'music':
     if mood == "happy":
