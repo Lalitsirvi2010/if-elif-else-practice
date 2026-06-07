@@ -16,6 +16,7 @@ Python programs to practice conditional statements (`if`, `elif`, `else`).
 | `mood_suggestion.py` | Suggests music or activities based on mood |
 | `movie_ticket.py` | Calculates movie ticket price by age and popcorn |
 | `number_guess.py` | Guessing game with higher/lower hints |
+| `leap_year_checker.py` | Checks whether a year is a leap year using 4/100/400 rules |
 | `rock_paper_scissors.py` | Rock Paper Scissors game against the computer |
 | `temperature_advice.py` | Gives weather advice based on temperature |
 | `traffic_fine.py` | Calculates traffic fines for overspeeding and license |
