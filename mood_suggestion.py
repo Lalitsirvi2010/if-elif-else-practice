@@ -1,5 +1,5 @@
-mood  = str(input("Enter your mood(happy, sad, angry, tired, focused, bored): ")).lower()
-category = str(input("Do you want music or activity?: ")).lower()
+mood = input("Enter your mood (happy, sad, angry, tired, focused, bored): ").lower()
+category = input("Do you want music or activity?: ").lower()
 
 if category == 'music':
     if mood == "happy":
@@ -12,12 +12,11 @@ if category == 'music':
         print("Play calm/relaxing music")
     elif mood == "focused":
         print("Play instrumental music")
-    elif mood == "bored":        
+    elif mood == "bored":
         print("Play upbeat/energetic music")
     else:
         print("Invalid mood entered.")
-
-elif category == 'another activity':
+elif category == 'activity':
     if mood == "happy":
         print("Go for a walk or dance")
     elif mood == "sad":
@@ -28,10 +27,9 @@ elif category == 'another activity':
         print("Take a nap or do some light stretching")
     elif mood == "focused":
         print("Work on a project or read a book")
-    elif mood == "bored":        
+    elif mood == "bored":
         print("Try a new hobby or explore a new place")
     else:
         print("Invalid mood entered.")
-
 else:
     print("Invalid category entered.")
