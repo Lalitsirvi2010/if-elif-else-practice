@@ -21,6 +21,7 @@ Python programs to practice conditional statements (`if`, `elif`, `else`).
 | `temperature_advice.py` | Gives weather advice based on temperature |
 | `traffic_fine.py` | Calculates traffic fines for overspeeding and license |
 | `user_login.py` | Login system with separate username/password errors |
+| `blood_donation_eligibility.py` | Blood donation eligibility based on age, weight, gender, and days since the last donation |
 
 ## How to run
 
