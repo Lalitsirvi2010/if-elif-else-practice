@@ -1,7 +1,7 @@
 attendance =  float(input("Enter your attendance: "))
 if attendance < 0 :
     print("Invalid attendance.")
-elif attendance >= 100 :
+elif attendance > 100 :
     print("Invalid attendance.")
 elif attendance >= 90 :
     print("Excellent attendance, allowed for exam.")
